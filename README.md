@@ -41,7 +41,7 @@ Laravel, MySQL ve Coza Store teması kullanılarak e ticaret sitesi oluşturdum.
 Projeyi klonlayın
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/duygusarkucu/web-tasarimi-eticaret-giyim-sitesi
 ```
 
 Proje dizinine gidin
