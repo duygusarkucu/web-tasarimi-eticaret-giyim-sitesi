@@ -14,7 +14,7 @@
 				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
 					<form>
 						<h4 class="mtext-105 cl2 txt-center p-b-30">
-							Send Us A Message
+							 Contact Us
 						</h4>
 
 						<div class="bor8 m-b-20 how-pos4-parent">
@@ -44,7 +44,7 @@
 							</span>
 
 							<p class="stext-115 cl6 size-213 p-t-18">
-								Coza Store Center 8th floor, 379 Hudson St, New York, NY 10018 US
+								Coza  Center 8th floor, 379 Hudson St, New York, NY 10018 US
 							</p>
 						</div>
 					</div>
