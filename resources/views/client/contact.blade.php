@@ -60,7 +60,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+saosajksajksa
+								+1 800 1236879
 							</p>
 						</div>
 					</div>
