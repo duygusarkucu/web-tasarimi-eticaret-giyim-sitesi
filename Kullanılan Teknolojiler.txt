@@ -1,0 +1,5 @@
+1- Laravel
+2- Önerilen CozaStore Teması 
+3- Admin Panel için Feather AdminKit Teması Kullanıldı
+4- Veritabanı SQL
+5- Hosting olarak Linux Hosting Kullanıldı
